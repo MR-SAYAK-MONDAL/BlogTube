@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* !CSS for NAVIGATION Starts from here */
+
+.navigation {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: rgba(245, 235, 190, 0.575); */
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+}
+
+.nav-left span {
+    font-weight: 800;
+    font-size: 28px;
+    cursor: pointer;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nav-left {
+    font-size: 20px;
+    display: flex;
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 43px;
+}
+
+.nav-left ul li {
+    list-style: none;
+    margin: 0 22px;
+    cursor: pointer;
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* !CSS for CONTENT Starts from here */
+
+.content {
+    height: 375px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-left {
+    display: flex;
+    flex: 2;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content-left h1 {
+    align-self: center;
+    font-size: 26px;
+    margin: 10px 10px 10px 5px;
+    padding: 10px 10px 10px 5px;
+    /* background: linear-gradient(to right, #18181a, #88888dc5);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; */
+    text-decoration: underline 2px !important;
+}
+
+.content-left p {
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    text-align: start;
+}
+
+.content-right {
+    width: 50%;
+    display: flex;
+    flex: 1;
+    align-content: center;
+    justify-content: center;
+}
+
+.content-right img {
+    width: 60%;
+    border: 4px solid black;
+    border-radius: 1000px;
+    margin: auto;
+}
+
+/* !CSS dor FEATURED ARTICLES starts from here */
+
+.home-articles h2 {
+    text-decoration: underline;
+    padding: 10px 10px 0px 10px;
+    text-align: center;
+    
+}
+
+.home-article{
+    display: flex;
+    margin: 25px;
+}
+
+.home-article img{
+    width: 250px;
+    padding: 10px;
+    border: black 2px solid;
+    border-radius: 500px;
+}
+
+.home-article-content{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-self: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+.home-article-content h1{
+    font-size: 21px;
+}
+
+/* !CSS for FOOTER starts from here */
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    background-color: rgba(230, 156, 191, 0.61);
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+}
